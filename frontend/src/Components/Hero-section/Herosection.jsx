@@ -8,13 +8,7 @@ export default function Herosection() {
       <div className="background-outer-layer">
         <div className="inner-layer">
           <div className="assets">
-            <ul>
-              <li><img src={assets.vector} alt='vector-bg' className='vector'/></li>
-              <li><img src={assets.girl} alt='girl' className='girl'/></li>
-              <li><img src={assets.grass1} alt='grass1' className='grass1'/></li>
-              <li><img src={assets.grass2} alt='grass2' className='grass2'/></li>
-              <li><img src={assets.floor} alt='floor' className='floor'/></li>
-            </ul>
+          <img src={assets.outdoor} alt=''/>
           </div>
           <div className="content-overlay">
             <h1>Kind low-GI Rice
@@ -23,6 +17,10 @@ export default function Herosection() {
             </h1>
           </div>
         </div>
+       
+      </div>
+      <div className='second-section'>
+        <img src={assets.Home2} alt='home2'/>
       </div>
     </section>
   );

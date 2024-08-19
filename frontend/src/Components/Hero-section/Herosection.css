@@ -1,247 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 .hero-section {
   width: 100vw;
-  height: 605px;
-  margin-top: rem;
+  height: 42.3vw; /* Converted height from 609px */
+  margin-top: rem; /* Adjust if needed */
   position: relative;
   overflow: hidden;
   font-family: "Nunito", sans-serif;
 }
 
-.background-outer-layer {
-  /* background-color: white; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* Ensure the outer layer takes full height */
-  position: relative;
-  z-index: 98;
-}
-
 .inner-layer {
-  background-color: #006633;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-height: 520px;
-  z-index: 1;
-}
-
-.assets {
-  position: absolute; /* Absolute positioning for layering */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.assets ul {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 100%;
+  position: relative; /* Ensure inner layer is positioned for absolute children */
+  width: 100vw;
   height: 100%;
 }
 
-.assets ul li {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.vector {
-  position: absolute;
-  height: auto; /* Maintain aspect ratio */
-  width: auto;
-  max-height: 100%; /* Ensure it doesn’t overflow */
-  max-width: 100%; /* Ensure it doesn’t overflow */
-  z-index: 0;
-  right: 0;
-}
-
-.girl {
-  position: absolute;
-  top: -8%; /* Adjust to position the image correctly */
-  left: 30vw;
-  z-index: 9; /* Ensure it is above the background */
-  width: 440px;
-  height: 546px;
-  overflow: visible;
-}
-
-.grass1,
-.grass2,
-.floor {
-  position: absolute;
-  max-height: 100%; /* Ensure they don’t overflow */
-  max-width: 100%; /* Ensure they don’t overflow */
-}
-
-.grass1 {
-  bottom: 6.3rem;
-  left: 10%;
-  z-index: 3; /* Ensure it is above the floor */
-  width: 145px;
-  height: 70px;
-}
-
-.grass2 {
-  bottom: 6.2rem;
-  right: 10%;
-  z-index: 4; /* Ensure it is above grass1 */
-  width: 162px;
-  height: 74px;
-}
-
-.floor {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1; /* Ensure it is at the bottom */
-}
-.content-overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 110 !important;
-  position: absolute;
-  top: 10vw;
-  left: 10vw;
-  text-align: center;
-  width: 1045px;
-}
-.content-overlay h1 {
-  color: white;
-  font-size: 75px;
-  line-height: 102px;
-  font-weight: 400;
-}
-/* Tablet landscape and smaller desktops */
+/* Adjusting for responsive design based on viewport width */
 @media (max-width: 1030px) {
-  .girl {
-    width: 350px;
-    height: 450px;
-    left: 20vw;
-  }
-
-  .grass1 {
-    width: 120px;
-    height: 60px;
-    bottom: 5rem;
-  }
-
-  .grass2 {
-    width: 140px;
-    height: 65px;
-    bottom: 5rem;
-  }
-
-  .content-overlay {
-    width: 80vw;
-    font-size: 60px;
-    line-height: 85px;
-    top: 15vw;
-    left: 5vw;
-  }
-
-  .inner-layer {
-    max-height: 460px;
-  }
-
   .hero-section {
-    height: 535px;
-  }
-
-  .content-overlay h1 {
-    font-size: 50px;
-    line-height: 72px;
+    height: 42.3vw; /* Ensure consistency with the converted height */
   }
 }
 
-/* Tablets and smaller screens */
 @media (max-width: 768px) {
-  .girl {
-    width: 250px;
-    height: 320px;
-    left: 10vw;
-  }
-
-  .grass1 {
-    width: 100px;
-    height: 50px;
-  }
-
-  .grass2 {
-    width: 120px;
-    height: 55px;
-  }
-
-  .content-overlay {
-    width: 90vw;
-    font-size: 40px;
-    line-height: 55px;
-    top: 20vw;
-    left: 5vw;
-  }
-
-  .inner-layer {
-    max-height: 420px;
-  }
-
   .hero-section {
-    height: 480px;
-  }
-
-  .content-overlay h1 {
-    font-size: 40px;
-    line-height: 55px;
+    height: 42.3vw; /* Ensure consistency with the converted height */
   }
 }
 
-/* Mobile screens */
 @media (max-width: 480px) {
-  .girl {
-    width: 200px;
-    height: 260px;
-    left: 5vw;
-  }
-
-  .grass1 {
-    width: 80px;
-    height: 40px;
-  }
-
-  .grass2 {
-    width: 100px;
-    height: 45px;
-  }
-
-  .content-overlay {
-    width: 95vw;
-    font-size: 30px;
-    line-height: 40px;
-    top: 25vw;
-    left: 2vw;
-  }
-
-  .inner-layer {
-    max-height: 360px;
-  }
-
   .hero-section {
-    height: 400px;
-  }
-
-  .content-overlay h1 {
-    font-size: 30px;
-    line-height: 40px;
+    height: 42.3vw; /* Ensure consistency with the converted height */
   }
 }
