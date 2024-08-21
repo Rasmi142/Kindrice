@@ -32,7 +32,21 @@ import man from "./man.jpeg";
 import man2 from "./man2.jpeg";
 import paddy from "./paddy.jpeg";
 import Workers from "./Workers.jpeg";
-
+import earth from "./earth.svg";
+import community from "./community.png";
+import heart1 from "./heart1.png";
+import heart2 from "./heart2.png";
+import heart3 from "./heart3.png";
+import quality from "./quality.png";
+import support from "./support.png";
+import kind from "./kind.png";
+import contentCreators from "./content-creators.svg";
+import chickenCurry from "./chicken-curry.png";
+import friedrice from "./friedrice.jpeg";
+import rasberry from "./rasberry.png";
+import riceSalad from "./rice-salad.jpeg";
+import prevArrow from "./previous.png";
+import nextArrow from "./after.png";
 export const assets = {
   logo,
   floor,
@@ -68,4 +82,19 @@ export const assets = {
   man2,
   paddy,
   Workers,
+  earth,
+  community,
+  heart1,
+  heart2,
+  heart3,
+  quality,
+  support,
+  kind,
+  contentCreators,
+  chickenCurry,
+  friedrice,
+  rasberry,
+  riceSalad,
+  nextArrow,
+  prevArrow,
 };

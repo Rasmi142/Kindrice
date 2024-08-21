@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { assets } from '../../assets/assets';
 import './Navbar.css'; // Ensure the path is correct
 import { FaUser, FaShoppingCart, FaBars } from 'react-icons/fa'; // Import hamburger icon
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom for page navigation
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,14 +26,12 @@ export default function Navbar() {
         <div className={`navbar-menu-container ${isMenuOpen ? 'active' : ''}`}>
           <div className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
             <ul>
-              <li>
-              <a href='#' className='link first' style={{ marginLeft: '9rem' }}>Shop</a>
-              </li>
-              <li><a href='#' className='link'>Low GI</a></li>
-              <li><a href='#' className='link'>Impact</a></li>
-              <li><a href='#' className='link'>Blog</a></li>
-              <li><a href='#' className='link'>Story</a></li>
-              <li><a href='#' className='link'>Contact</a></li>
+              <li><Link to='/shop' className='link' style={{ marginLeft: '9rem' }}>Shop</Link></li>
+              <li><Link to='/low-gi' className='link'>Low GI</Link></li>
+              <li><Link to='/impact' className='link'>Impact</Link></li>
+              <li><Link to='/blog' className='link'>Blog</Link></li>
+              <li><Link to='/story' className='link'>Story</Link></li>
+              <li><Link to='/contact' className='link'>Contact</Link></li>
             </ul>
           </div>
           <div className='navbar-icons'>
