@@ -47,6 +47,25 @@ import rasberry from "./rasberry.png";
 import riceSalad from "./rice-salad.jpeg";
 import prevArrow from "./previous.png";
 import nextArrow from "./after.png";
+import cars from "./cars.png";
+import greenArrow from "./greenArrow.png";
+import lowGlycemic from "./lowGlycemic.png";
+import selected from "./selected.png";
+import sugarLevel from "./sugarLevel.png";
+import verifiedCertificate from "./verification.jpeg";
+import weight from "./weightManagement.png";
+import Gardening from "./working-garden.svg";
+import desk from "./desk.svg";
+import communication from "./communication.jpeg";
+import returnPolicy from "./return-policy.svg";
+import certificate1 from "./certificate1.jpeg";
+import certificate2 from "./certificate2.jpeg";
+import certificate3 from "./certificate3.jpeg";
+import certificate4 from "./certificate4.jpeg";
+import certificate5 from "./certificate5.jpeg";
+import certificate6 from "./certificate6.jpeg";
+import checking from "./checking.svg";
+
 export const assets = {
   logo,
   floor,
@@ -97,4 +116,22 @@ export const assets = {
   riceSalad,
   nextArrow,
   prevArrow,
+  cars,
+  greenArrow,
+  lowGlycemic,
+  selected,
+  sugarLevel,
+  verifiedCertificate,
+  weight,
+  Gardening,
+  desk,
+  communication,
+  returnPolicy,
+  certificate1,
+  certificate2,
+  certificate3,
+  certificate4,
+  certificate5,
+  certificate6,
+  checking,
 };

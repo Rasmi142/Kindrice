@@ -22,3 +22,19 @@
   font-weight: 700;
   padding-top: 4vw;
 }
+.know {
+  width: 20.94vw;
+  height: 8.33vh;
+  padding: 0.73vh 3.48vw;
+  gap: 0.52vw;
+  border-radius: 0.63vw;
+  cursor: pointer;
+  background-color: #006633;
+  font-family: Nunito;
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 1.88vw;
+  text-align: center;
+  color: white;
+  margin-top: 4vw;
+}

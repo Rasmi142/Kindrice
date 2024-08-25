@@ -138,4 +138,7 @@
     align-items: center;
     justify-content: center;
   }
+  .blogcards-section {
+    margin-top: 12vw;
+  }
 }
