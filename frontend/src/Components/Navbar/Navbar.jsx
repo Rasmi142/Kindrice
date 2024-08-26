@@ -32,6 +32,7 @@ export default function Navbar() {
               <li><Link to='/blog' className='link'>Blog</Link></li>
               <li><Link to='/story' className='link'>Story</Link></li>
               <li><Link to='/contact' className='link'>Contact</Link></li>
+              <li><Link to='/lab-test' className='link'>Lab Test</Link></li>
             </ul>
           </div>
           <div className='navbar-icons'>
