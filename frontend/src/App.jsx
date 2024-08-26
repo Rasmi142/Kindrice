@@ -8,7 +8,6 @@ import Lowgi from './pages/Lowgi/Lowgi';
 import Contact from './pages/Contact/Contact';
 import ReturnPolicy from './pages/ReturnPolicy/ReturnPolicy';
 import Certificates from './pages/Certificates/Certificates';
-import Shop from './pages/Shop/Shop';
 
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route path='/contact' element={<Contact/>} />
         <Route path="/return-policy" element={<ReturnPolicy/>}/>
         <Route path="/lab-test" element={<Certificates/>}/>
-        <Route path='/shop' element={<Shop />} />
       </Routes>
     </Router>
   );
